@@ -1,0 +1,20 @@
+table {
+  th , td {
+    text-align: center;
+    width : 150px;
+    height: 50px;
+    border-bottom: 1px solid black;
+  }
+  td {
+    border-bottom: 1px solid lightgrey;
+    .red {
+      @extend %red;
+    }
+    .green {
+      @extend %green;
+    }
+    .blue {
+      @extend %blue;
+    }
+  }
+}
